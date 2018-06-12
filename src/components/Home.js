@@ -64,7 +64,8 @@ export const allPostsQueryVars = {
 
 export default graphql(allPosts, {
     options: {
-        variables: allPostsQueryVars
+        variables: allPostsQueryVars,
+        notifyOnNetworkStatusChange: true
     },
     props: ({ data }) => ({
         data,

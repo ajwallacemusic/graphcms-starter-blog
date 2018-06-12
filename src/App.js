@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
-import Post from './components/Post'
+import Post from './components/Posts'
 
 const App = () => (
     <Router>
